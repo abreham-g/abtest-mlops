@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/Abreham/Desktop/10acad/abtest-mlops/Script/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Logistic Regression

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Abreham/Desktop/10acad/abtest-mlops/Script/mlruns/2/d0ed09601bff4132a0e797bfb51a4c3e/artifacts
+end_time: 1627161680271
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: d0ed09601bff4132a0e797bfb51a4c3e
+run_uuid: d0ed09601bff4132a0e797bfb51a4c3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627161619702
+status: 3
+tags: []
+user_id: Abreham

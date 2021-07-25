@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/Abreham/Desktop/10acad/abtest-mlops/Script/mlruns/3
+experiment_id: '3'
+lifecycle_stage: active
+name: XGBoost
