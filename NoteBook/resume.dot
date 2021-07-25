@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<device_make &le; 113.5<br/>gini = 0.499<br/>samples = 895<br/>value = [467, 428]<br/>class = Aware>, fillcolor="#fdf4ee"] ;
+1 [label=<hour &le; 22.5<br/>gini = 0.499<br/>samples = 882<br/>value = [456, 426]<br/>class = Aware>, fillcolor="#fdf7f2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<hour &le; 3.5<br/>gini = 0.499<br/>samples = 877<br/>value = [456, 421]<br/>class = Aware>, fillcolor="#fdf5f0"] ;
+1 -> 2 ;
+3 [label=<gini = 0.474<br/>samples = 101<br/>value = [62, 39]<br/>class = Aware>, fillcolor="#f5d0b6"] ;
+2 -> 3 ;
+4 [label=<gini = 0.5<br/>samples = 776<br/>value = [394, 382]<br/>class = Aware>, fillcolor="#fefbf9"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 5<br/>value = [0, 5]<br/>class = Not Aware>, fillcolor="#399de5"] ;
+1 -> 5 ;
+6 [label=<browser &le; 4.0<br/>gini = 0.26<br/>samples = 13<br/>value = [11, 2]<br/>class = Aware>, fillcolor="#ea985d"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = Not Aware>, fillcolor="#399de5"] ;
+6 -> 7 ;
+8 [label=<hour &le; 4.0<br/>gini = 0.153<br/>samples = 12<br/>value = [11, 1]<br/>class = Aware>, fillcolor="#e78c4b"] ;
+6 -> 8 ;
+9 [label=<gini = 0.5<br/>samples = 2<br/>value = [1, 1]<br/>class = Aware>, fillcolor="#ffffff"] ;
+8 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 10<br/>value = [10, 0]<br/>class = Aware>, fillcolor="#e58139"] ;
+8 -> 10 ;
+}
